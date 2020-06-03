@@ -1,0 +1,181 @@
+@media (min-width: 401px) {
+  .button{
+    font-size: 16px;
+    min-width: 180px;
+    width: auto;
+  }
+
+  .product_order_button{
+    text-align: left;
+  }
+
+  .container{
+    max-width: 100%;
+    padding: 0 40px;
+  }
+
+  .display_desktop,
+  .display_mobile{
+    display: none !important;
+  }
+
+  .display_tablet{
+    display: block !important;
+  }
+
+  .product_gallery{
+    float: left;
+    width:55%;
+
+    .product_gallery_wrapper{
+      margin: 0;
+    }
+  }
+
+  .product_main_info{
+    float: left;
+    width:45%;
+
+    .product_price{
+      margin: 0 0 10px;
+      .price{
+        margin: 0;
+      }
+    }
+  }
+
+  .product_card{
+    margin-top: 35px;
+  }
+
+  .product_title{
+    margin: 0 0 20px;
+  }
+
+  .product_gallery {
+    padding-right: 10px;
+    margin-top: 6px;
+  }
+
+  .product_item_number{
+    margin: 0 0 4px;
+    font-size: 11px;
+  }
+
+  .product_price {
+    font-size: 36px;
+
+    .price{
+      margin: 0 0 0;
+    }
+  }
+
+  .product-rating-status{
+    margin: 2px 20px 10px 0;
+  }
+
+  .product_share{
+    &.popover_anchor{
+      display: none;
+    }
+  }
+
+  .product_description_text_wrapper{
+    max-height: 115px;
+  }
+
+  //
+  .product_options{
+    display: table;
+    width: 100%;
+    margin: 0;
+  }
+
+  .product_options_item{
+    display: table-row;
+  }
+
+  .option_title,
+  .option_value{
+    display: table-cell;
+    color: rgb(44, 48, 61);
+    text-transform: uppercase;
+    vertical-align: middle;
+    padding-bottom: 10px;
+  }
+
+  .option_title{
+    width: 20%;
+    font-size: 14px;
+    font-weight: bold;
+
+    .text_mobile{
+      display: none;
+    }
+  }
+
+  .option_value{
+    padding-left: 15px;
+
+    &:after{
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+
+  .option_value_item{
+    float: left;
+    margin: 3px 12px 3px 0;
+
+    &:last-child{
+      margin-right: 0;
+    }
+
+    input{
+      display: none;
+
+      &:checked{
+        & + label {
+          box-shadow: 0 0 15px 0 #000;
+          transform: scale(1.05);
+        }
+      }
+    }
+
+    label{
+      width: 40px;
+      height: 40px;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: .2s ease-in-out;
+      background: #fff;
+      font-size: 12px;
+
+      &.border_ccc{
+        border: 1px solid #ccc;
+      }
+    }
+  }
+  //
+
+  .products_related {
+    .row {
+      margin: 0 -20px;
+    }
+
+    .product_item {
+      float: left;
+      width: 50%;
+      padding: 0 20px;
+      margin: 0 0 17px;
+    }
+  }
+
+  .products_related {
+
+  }
+}

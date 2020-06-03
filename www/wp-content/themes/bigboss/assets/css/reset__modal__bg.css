@@ -1,0 +1,18 @@
+.modal-content {
+    background-color: #3d3d3d;
+}
+
+.hidden {
+    display: none;
+}
+
+.section-layout.bg-black .products .product .footer .action .btn {
+    border: 2px solid #030303;
+    background-color: #030303;
+    color: #fff; 
+}
+
+.section-layout.bg-black .products .product .footer .action .btn:hover {
+    border: 2px solid #e63f41;
+    background: #e63f41;
+}
